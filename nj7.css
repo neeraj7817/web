@@ -1,0 +1,17 @@
+.p1{
+  background-color: green;
+  color: white;
+  padding:10px
+ } 
+ 
+#p2{
+   background-color: yellow;
+   color: red;
+    padding:10px
+   }
+   
+p{
+   background-color: grey;
+   color: blue;
+    padding:10px
+ }
