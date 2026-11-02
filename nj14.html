@@ -1,0 +1,33 @@
+<shtml>
+<body>
+String <input type="text" id="str"><br>
+Number <input type="text" id="num"><br>
+<button onclick="show()">Show functions</button>
+<script>
+function show(){
+let str=document.getElementById("str").value;
+let num=document.getElementById("num").value;
+
+document.write("<h2>String Object functions</h2>");
+document.write("Original string : "+ str +"<br>");
+document.write("Length : "+str.length+"<br>");
+document.write("Uppercase : "+ str.toUpperCase() +"<br>");
+document.write("Lowercase : "+ str.toLowerCase() +"<br>");
+document.write("Character at index 1 : "+ str.charAt(1) +"<br>");
+
+document.write("<h2>Math Object functions</h2>");
+document.write("Number : "+ num +"<br>");
+document.write("Round : "+ Math.round(num) +"<br>");
+document.write("Ceil : "+ Math.ceil(num) +"<br>");
+document.write("Floor : "+ Math.floor(num) +"<br>");
+document.write("Square root : "+ Math.sqrt(num) +"<br>");
+document.write("Power("+num+", 5) : "+ Math.pow(num,5) +"<br>");
+document.write("Absolute value : "+ Math.abs(num) +"<br>");
+}
+</script>
+</body>
+</html>
+
+
+
+
